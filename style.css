@@ -1,0 +1,26 @@
+div{
+    display: block;
+}
+.bg{
+    background-image: url("/img/téléchargement.jpg");
+    width: 100%;
+    filter: blur(10px);
+}
+
+body{
+   background-color: black;
+   
+   Background-size: 100%;
+   
+
+}
+h1{
+    color: red;
+}
+p{
+    color: white
+}
+footer{
+    text-align: justify;
+    border: 1px solid gray;
+}
