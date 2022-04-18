@@ -16,11 +16,13 @@ body{
 }
 h1{
     color: red;
+    text-align: center;
+    text-decoration: underline;
 }
 p{
-    color: white
+    color: white;
 }
 footer{
-    text-align: justify;
+    text-align: center;
     border: 1px solid gray;
 }
