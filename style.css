@@ -2,6 +2,9 @@ div{
     display: block;
 }
 
+header{
+    color: red;
+}
 
 body{
    background-color: black;
@@ -514,7 +517,7 @@ footer{
 	transform: translate(25px, -15px);
 	font-family: 'Bree Serif', serif;
 	display: inline-block;
-	background: white;
+	background: red;
 	border-radius: 5px;
 	font-size: 14px;
 	padding: 5px;
