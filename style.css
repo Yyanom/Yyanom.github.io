@@ -2,9 +2,6 @@ div{
     display: block;
 }
 .bg{
-    background-image: url("/img/téléchargement.jpg");
-    width: 100%;
-    filter: blur(10px);
 }
 
 body{
@@ -14,11 +11,37 @@ body{
    
 
 }
-h1{
-    color: red;
-    text-align: center;
-    text-decoration: underline;
+
+.flamenco {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient( 70% 160% at center, transparent, black 30%);
+    text-shadow: 5px 5px 2px black;
 }
+
+.flamenco img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    transform: translate3d(-50%, -50%, 0);
+    height: 100%;
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+
+
 p{
     color: white;
 }
