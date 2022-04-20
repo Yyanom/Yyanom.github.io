@@ -30,6 +30,8 @@ font-family: 'EB Garamond', serif;
     justify-content: center;
     background: radial-gradient( 70% 160% at center, transparent, black 30%);
     text-shadow: 5px 5px 2px black;
+	margin-left: 25%;
+	margin-rigth: 25%;
 }
 
 
