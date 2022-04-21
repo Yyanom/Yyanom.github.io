@@ -31,6 +31,7 @@ font-family: 'EB Garamond', serif;
     background: radial-gradient( 70% 160% at center, transparent, black 30%);
     text-shadow: 5px 5px 2px black;
 	width: 667px;
+	text-alin: center;
 }
 
 
@@ -48,7 +49,7 @@ footer{
     text-align: center;
     border: 1px solid gray;
 	width: 667px;
-	margin: center;
+	margin: 25%;
 }
 
   
