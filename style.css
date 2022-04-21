@@ -22,7 +22,7 @@ font-family: 'EB Garamond', serif;
 .flamenco {
     color: white;
     position: relative;
-    height: 667px;
+    height: 300px;
     overflow: hidden;
     display : flex;
     flex-direction: column;
