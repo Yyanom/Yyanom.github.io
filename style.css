@@ -1,553 +1,568 @@
+
+
 a{
- color : red;	
-}
-div{
-    display: block;
-}
-
-body{
-   background-color: black;
+	color : red;	
+   }
+   div{
+	   display: block;
+   }
    
-   Background-size: 100%;
+   header{
+	   color: red;
+   }
+   
+   body{
+	  background-color: black;
+	  
+	  Background-size: 100%;
+	   
+   min-width: 320px;
+   }
+   
+   p {
+   font-family: 'EB Garamond', serif;
+	   text-align: center;
+	   font-size: 18px;
+	   color: white;
+   }
+   
+   .flamenco {
+	   width: max-content;
+	   color: white;
+	   position: relative;
+	   height: 300px;
+	   overflow: hidden;
+	   display : flex;
+	   flex-direction: column;
+	   align-items: center;
+	   justify-content: center;
+	   background: radial-gradient( 70% 160% at center, transparent, black 30%);
+	   text-shadow: 5px 5px 2px black;
+	   margin-left: 25%;
+   }
+   
+   
+   .flamenco img{
+	   position: absolute;
+	   top: 50%;
+	   left: 50%;
+	   z-index: -1;
+	   transform: translate3d(-50%, -50%, 0);
+	   height: 100%;
+   }
+   
+   
+   footer{
+	 text-align: center;
+	 width:auto;
+	
+	   
+
+   }
+   
+	 
+	   
+   
+   #LasPalmas{
+	   box-shadow: 0 15px 30px 1px grey;
+	   background: red;
+	   text-align: center;
+	   border-radius: 5px;
+	   overflow: hidden;
+	   margin: 5em auto;
+	   height: 350px;
+	   width: 700px;
+	 
+	   
+   }
+   
+   
+   
+   .Info-palmas {
+	   position: relative;
+	   text-align: left;
+	   overflow: hidden;
+	   padding: 30px;
+	   height: 100%;
+	   float: left;
+	   width: 40%;
+   
+   }
+   
+   #LasPalmas .Info-Palmas h1{
+	   font-family: 'Bebas Neue', cursive;
+	   display: inline-block;
+	   position: relative;
+	   font-size: 30px;
+	   color: black;
+	   margin: 0;
+	   
+   }
+   
+   #LasPalmas .Info-Palmas h1:before{
+	   position: absolute;
+	   content: '';
+	   right: 0%; 
+	   top: 0%;
+	   transform: translate(25px, -15px);
+	   font-family: 'Bree Serif', serif;
+	   display: inline-block;
+	   background: white;
+	   border-radius: 5px;
+	   font-size: 14px;
+	   padding: 5px;
+	   color: black;
+	   margin: 0;
+	   animation: chan-sh 6s ease infinite;
+   
+   }
+   
+   
+   
+	   
+   
+   
+   .hint-star {
+	   display: inline-block;
+	   margin-left: 0.5em;
+	   color: gold;
+	   width: 50%;
+   }
+   
+   
+   
+	   
+   
+   
+   .Palmas-image {
+	   transition: all 0.3s ease-out;
+	   display: inline-block;
+	   position: relative;
+	   overflow: hidden;
+	   height: 100%;
+	   float: right;
+	   width: 45%;
+	   display: inline-block;
+   }
+   
+   #LasPalmas img {width: 100%;height: 100%;}
+   
+   
+   
+   
+   #Zapatos{
+	   box-shadow: 0 15px 30px 1px grey;
+	   background: red;
+	   text-align: center;
+	   border-radius: 5px;
+	   overflow: hidden;
+	   margin: 5em auto;
+	   height: 350px;
+	   width: 700px;
+	 
+	   
+   }
+   
+   
+   
+   .Info-Zapatos {
+	   position: relative;
+	   text-align: left;
+	   overflow: hidden;
+	   padding: 30px;
+	   height: 100%;
+	   float: left;
+	   width: 40%;
+   
+   }
+   
+   #Zapatos .Info-Zapatos h1{
+	   font-family: 'Bebas Neue', cursive;
+	   display: inline-block;
+	   position: relative;
+	   font-size: 30px;
+	   color: black;
+	   margin: 0;
+	   
+   }
+   
+   #Zapatos .Info-Zapatos h1:before{
+	   position: absolute;
+	   content: '';
+	   right: 0%; 
+	   top: 0%;
+	   transform: translate(25px, -15px);
+	   font-family: 'Bree Serif', serif;
+	   display: inline-block;
+	   background: red;
+	   border-radius: 5px;
+	   font-size: 14px;
+	   padding: 5px;
+	   color: black;
+	   margin: 0;
+	   animation: chan-sh 6s ease infinite;
+   
+   }
+   
+   
+   
+	   
+   
+   
+   .hint-star {
+	   display: inline-block;
+	   margin-left: 0.5em;
+	   color: gold;
+	   width: 50%;
+   }
+   
+   
+   
+	   
+   
+   
+   .Zapatos-image {
+	   transition: all 0.3s ease-out;
+	   display: inline-block;
+	   position: relative;
+	   overflow: hidden;
+	   height: 100%;
+	   float: right;
+	   width: 45%;
+	   display: inline-block;
+   }
+   
+   #Zapatos img {width: 100%;height: 100%;}
+   
+   
+   
+   
+   
+   #guitara{
+	   box-shadow: 0 15px 30px 1px grey;
+	   background: red;
+	   text-align: center;
+	   border-radius: 5px;
+	   overflow: hidden;
+	   margin: 5em auto;
+	   height: 350px;
+	   width: 700px;
+	 
+	   
+   }
+   
+   
+   
+   .Info-guitara {
+	   position: relative;
+	   text-align: left;
+	   overflow: hidden;
+	   padding: 30px;
+	   height: 100%;
+	   float: left;
+	   width: 40%;
+   
+   }
+   
+   #guitara .Info-guitara h1{
+	   font-family: 'Bebas Neue', cursive;
+	   display: inline-block;
+	   position: relative;
+	   font-size: 30px;
+	   color: black;
+	   margin: 0;
+	   
+   }
+   
+   #guitara .Info-guitara h1:before{
+	   position: absolute;
+	   content: '';
+	   right: 0%; 
+	   top: 0%;
+	   transform: translate(25px, -15px);
+	   font-family: 'Bree Serif', serif;
+	   display: inline-block;
+	   background: red;
+	   border-radius: 5px;
+	   font-size: 14px;
+	   padding: 5px;
+	   color: black;
+	   margin: 0;
+	   animation: chan-sh 6s ease infinite;
+   
+   }
+   
+   
+   
+	   
+   
+   
+   .hint-star {
+	   display: inline-block;
+	   margin-left: 0.5em;
+	   color: gold;
+	   width: 50%;
+   }
+   
+   
+	   
+   
+   
+   .guitara-image {
+	   transition: all 0.3s ease-out;
+	   display: inline-block;
+	   position: relative;
+	   overflow: hidden;
+	   height: 100%;
+	   float: right;
+	   width: 45%;
+	   display: inline-block;
+   }
+   
+   #guitara img {width: 100%;height: 100%;}
+   
+   
+   
+   #cajon{
+	   box-shadow: 0 15px 30px 1px grey;
+	   background: red;
+	   text-align: center;
+	   border-radius: 5px;
+	   overflow: hidden;
+	   margin: 5em auto;
+	   height: 350px;
+	   width: 700px;
+	 
+	   
+   }
+   
+   
+   
+   .Info-cajon {
+	   position: relative;
+	   text-align: left;
+	   overflow: hidden;
+	   padding: 30px;
+	   height: 100%;
+	   float: left;
+	   width: 40%;
+   
+   }
+   
+   #cajon .Info-cajon h1{
+	   font-family: 'Bebas Neue', cursive;
+	   display: inline-block;
+	   position: relative;
+	   font-size: 30px;
+	   color: black;
+	   margin: 0;
+	   
+   }
+   
+   #cajon .Info-cajon h1:before{
+	   position: absolute;
+	   content: '';
+	   right: 0%; 
+	   top: 0%;
+	   transform: translate(25px, -15px);
+	   font-family: 'Bree Serif', serif;
+	   display: inline-block;
+	   background: red;
+	   border-radius: 5px;
+	   font-size: 14px;
+	   padding: 5px;
+	   color: black;
+	   margin: 0;
+	   animation: chan-sh 6s ease infinite;
+   
+   }
+   
+   
+   
+   .hint-star {
+	   display: inline-block;
+	   margin-left: 0.5em;
+	   color: gold;
+	   width: 50%;
+   }
+   
+   
+   
+   
+   .cajon-image {
+	   transition: all 0.3s ease-out;
+	   display: inline-block;
+	   position: relative;
+	   overflow: hidden;
+	   height: 100%;
+	   float: right;
+	   width: 45%;
+	   display: inline-block;
+   }
+   
+   #cajon img {width: 100%;height: 100%;}
+   
+   #castañuela{
+	   box-shadow: 0 15px 30px 1px grey;
+	   background: red;
+	   text-align: center;
+	   border-radius: 5px;
+	   overflow: hidden;
+	   margin: 5em auto;
+	   height: 350px;
+	   width: 700px;
+	 
+	   
+   }
+   
+   
+   
+   .Info-castañuela {
+	   position: relative;
+	   text-align: left;
+	   overflow: hidden;
+	   padding: 30px;
+	   height: 100%;
+	   float: left;
+	   width: 40%;
+   
+   }
+   
+   #castañuela .Info-castañuela h1{
+	   font-family: 'Bebas Neue', cursive;
+	   display: inline-block;
+	   position: relative;
+	   font-size: 30px;
+	   color: black;
+	   margin: 0;
+	   
+   }
+   
+   #castañuela .Info-castañuela h1:before{
+	   position: absolute;
+	   content: '';
+	   right: 0%; 
+	   top: 0%;
+	   transform: translate(25px, -15px);
+	   font-family: 'Bree Serif', serif;
+	   display: inline-block;
+	   background: red;
+	   border-radius: 5px;
+	   font-size: 14px;
+	   padding: 5px;
+	   color: black;
+	   margin: 0;
+	   animation: chan-sh 6s ease infinite;
+   
+   }
+   
+   
+   
+   .hint-star {
+	   display: inline-block;
+	   margin-left: 0.5em;
+	   color: gold;
+	   width: 50%;
+   }
+   
+   
+   
+   
+   .castañuela-image {
+	   transition: all 0.3s ease-out;
+	   display: inline-block;
+	   position: relative;
+	   overflow: hidden;
+	   height: 100%;
+	   float: right;
+	   width: 45%;
+	   display: inline-block;
+   }
+   
+   #castañuela img {width: 100%;height: 100%;}
+   
+   
+   #Voz{
+	   box-shadow: 0 15px 30px 1px grey;
+	   background: red;
+	   text-align: center;
+	   border-radius: 5px;
+	   overflow: hidden;
+	   margin: 5em auto;
+	   height: 350px;
+	   width: 700px;
+	 
+	   
+   }
+   
+   
+   
+   .Info-Voz {
+	   position: relative;
+	   text-align: left;
+	   overflow: hidden;
+	   padding: 30px;
+	   height: 100%;
+	   float: left;
+	   width: 40%;
+   
+   }
+   
+   #Voz .Info-Voz h1{
+	   font-family: 'Bebas Neue', cursive;
+	   display: inline-block;
+	   position: relative;
+	   font-size: 30px;
+	   color: black;
+	   margin: 0;
+	   
+   }
+   
+   #Voz .Info-Voz h1:before{
+	   position: absolute;
+	   content: '';
+	   right: 0%; 
+	   top: 0%;
+	   transform: translate(25px, -15px);
+	   font-family: 'Bree Serif', serif;
+	   display: inline-block;
+	   background: red;
+	   border-radius: 5px;
+	   font-size: 14px;
+	   padding: 5px;
+	   color: black;
+	   margin: 0;
+	   animation: chan-sh 6s ease infinite;
+   
+   }
+   
+   
+   
+   .hint-star {
+	   display: inline-block;
+	   margin-left: 0.5em;
+	   color: gold;
+	   width: 50%;
+   }
+   
+   
+   
+   
+   .Voz-image {
+	   transition: all 0.3s ease-out;
+	   display: inline-block;
+	   position: relative;
+	   overflow: hidden;
+	   height: 100%;
+	   float: right;
+	   width: 45%;
+	   display: inline-block;
+   }
+   
+   #Voz img {width: 100%;height: 100%;}
+   
+   
+	   
+@media only screen and (max-width: 320px) {
 	
 }
-
-p {
-font-family: 'EB Garamond', serif;
-	text-align: center;
-	font-size: 18px;
-	color: white;
-}
-
-.flamenco {
-    color: white;
-    position: relative;
-    height: 300px;
-    overflow: hidden;
-    display : flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: radial-gradient( 70% 160% at center, transparent, black 30%);
-    text-shadow: 5px 5px 2px black;
-	width: 667px;
-}
-
-
-.flamenco img{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: -1;
-    transform: translate3d(-50%, -50%, 0);
-    height: 100%;
-}
-
-
-footer{
-    text-align: center;
-    border: 1px solid gray;
-	width: 667px;
-}
-
-  
-	
-
-#LasPalmas{
-	box-shadow: 0 15px 30px 1px grey;
-	background: red;
-	text-align: center;
-	border-radius: 5px;
-	overflow: hidden;
-	margin: 5em auto;
-	height: 350px;
-	width: 700px;
-  
-	
-}
-
-
-
-.Info-palmas {
-	position: relative;
-	text-align: left;
-	overflow: hidden;
-	padding: 30px;
-	height: 100%;
-	float: left;
-	width: 40%;
-
-}
-
-#LasPalmas .Info-Palmas h1{
-	font-family: 'Bebas Neue', cursive;
-	display: inline-block;
-	position: relative;
-	font-size: 30px;
-	color: black;
-	margin: 0;
-	
-}
-
-#LasPalmas .Info-Palmas h1:before{
-	position: absolute;
-	content: '';
-	right: 0%; 
-	top: 0%;
-	transform: translate(25px, -15px);
-	font-family: 'Bree Serif', serif;
-	display: inline-block;
-	background: white;
-	border-radius: 5px;
-	font-size: 14px;
-	padding: 5px;
-	color: black;
-	margin: 0;
-	animation: chan-sh 6s ease infinite;
-
-}
-
-
-
-	
-
-
-.hint-star {
-	display: inline-block;
-	margin-left: 0.5em;
-	color: gold;
-	width: 50%;
-}
-
-
-
-	
-
-
-.Palmas-image {
-	transition: all 0.3s ease-out;
-	display: inline-block;
-	position: relative;
-	overflow: hidden;
-	height: 100%;
-	float: right;
-	width: 45%;
-	display: inline-block;
-}
-
-#LasPalmas img {width: 100%;height: 100%;}
-
-
-
-
-#Zapatos{
-	box-shadow: 0 15px 30px 1px grey;
-	background: red;
-	text-align: center;
-	border-radius: 5px;
-	overflow: hidden;
-	margin: 5em auto;
-	height: 350px;
-	width: 700px;
-  
-	
-}
-
-
-
-.Info-Zapatos {
-	position: relative;
-	text-align: left;
-	overflow: hidden;
-	padding: 30px;
-	height: 100%;
-	float: left;
-	width: 40%;
-
-}
-
-#Zapatos .Info-Zapatos h1{
-	font-family: 'Bebas Neue', cursive;
-	display: inline-block;
-	position: relative;
-	font-size: 30px;
-	color: black;
-	margin: 0;
-	
-}
-
-#Zapatos .Info-Zapatos h1:before{
-	position: absolute;
-	content: '';
-	right: 0%; 
-	top: 0%;
-	transform: translate(25px, -15px);
-	font-family: 'Bree Serif', serif;
-	display: inline-block;
-	background: red;
-	border-radius: 5px;
-	font-size: 14px;
-	padding: 5px;
-	color: black;
-	margin: 0;
-	animation: chan-sh 6s ease infinite;
-
-}
-
-
-
-	
-
-
-.hint-star {
-	display: inline-block;
-	margin-left: 0.5em;
-	color: gold;
-	width: 50%;
-}
-
-
-
-	
-
-
-.Zapatos-image {
-	transition: all 0.3s ease-out;
-	display: inline-block;
-	position: relative;
-	overflow: hidden;
-	height: 100%;
-	float: right;
-	width: 45%;
-	display: inline-block;
-}
-
-#Zapatos img {width: 100%;height: 100%;}
-
-
-
-
-
-#guitara{
-	box-shadow: 0 15px 30px 1px grey;
-	background: red;
-	text-align: center;
-	border-radius: 5px;
-	overflow: hidden;
-	margin: 5em auto;
-	height: 350px;
-	width: 700px;
-  
-	
-}
-
-
-
-.Info-guitara {
-	position: relative;
-	text-align: left;
-	overflow: hidden;
-	padding: 30px;
-	height: 100%;
-	float: left;
-	width: 40%;
-
-}
-
-#guitara .Info-guitara h1{
-	font-family: 'Bebas Neue', cursive;
-	display: inline-block;
-	position: relative;
-	font-size: 30px;
-	color: black;
-	margin: 0;
-	
-}
-
-#guitara .Info-guitara h1:before{
-	position: absolute;
-	content: '';
-	right: 0%; 
-	top: 0%;
-	transform: translate(25px, -15px);
-	font-family: 'Bree Serif', serif;
-	display: inline-block;
-	background: red;
-	border-radius: 5px;
-	font-size: 14px;
-	padding: 5px;
-	color: black;
-	margin: 0;
-	animation: chan-sh 6s ease infinite;
-
-}
-
-
-
-	
-
-
-.hint-star {
-	display: inline-block;
-	margin-left: 0.5em;
-	color: gold;
-	width: 50%;
-}
-
-
-	
-
-
-.guitara-image {
-	transition: all 0.3s ease-out;
-	display: inline-block;
-	position: relative;
-	overflow: hidden;
-	height: 100%;
-	float: right;
-	width: 45%;
-	display: inline-block;
-}
-
-#guitara img {width: 100%;height: 100%;}
-
-
-
-#cajon{
-	box-shadow: 0 15px 30px 1px grey;
-	background: red;
-	text-align: center;
-	border-radius: 5px;
-	overflow: hidden;
-	margin: 5em auto;
-	height: 350px;
-	width: 700px;
-  
-	
-}
-
-
-
-.Info-cajon {
-	position: relative;
-	text-align: left;
-	overflow: hidden;
-	padding: 30px;
-	height: 100%;
-	float: left;
-	width: 40%;
-
-}
-
-#cajon .Info-cajon h1{
-	font-family: 'Bebas Neue', cursive;
-	display: inline-block;
-	position: relative;
-	font-size: 30px;
-	color: black;
-	margin: 0;
-	
-}
-
-#cajon .Info-cajon h1:before{
-	position: absolute;
-	content: '';
-	right: 0%; 
-	top: 0%;
-	transform: translate(25px, -15px);
-	font-family: 'Bree Serif', serif;
-	display: inline-block;
-	background: red;
-	border-radius: 5px;
-	font-size: 14px;
-	padding: 5px;
-	color: black;
-	margin: 0;
-	animation: chan-sh 6s ease infinite;
-
-}
-
-
-
-.hint-star {
-	display: inline-block;
-	margin-left: 0.5em;
-	color: gold;
-	width: 50%;
-}
-
-
-
-
-.cajon-image {
-	transition: all 0.3s ease-out;
-	display: inline-block;
-	position: relative;
-	overflow: hidden;
-	height: 100%;
-	float: right;
-	width: 45%;
-	display: inline-block;
-}
-
-#cajon img {width: 100%;height: 100%;}
-
-#castañuela{
-	box-shadow: 0 15px 30px 1px grey;
-	background: red;
-	text-align: center;
-	border-radius: 5px;
-	overflow: hidden;
-	margin: 5em auto;
-	height: 350px;
-	width: 700px;
-  
-	
-}
-
-
-
-.Info-castañuela {
-	position: relative;
-	text-align: left;
-	overflow: hidden;
-	padding: 30px;
-	height: 100%;
-	float: left;
-	width: 40%;
-
-}
-
-#castañuela .Info-castañuela h1{
-	font-family: 'Bebas Neue', cursive;
-	display: inline-block;
-	position: relative;
-	font-size: 30px;
-	color: black;
-	margin: 0;
-	
-}
-
-#castañuela .Info-castañuela h1:before{
-	position: absolute;
-	content: '';
-	right: 0%; 
-	top: 0%;
-	transform: translate(25px, -15px);
-	font-family: 'Bree Serif', serif;
-	display: inline-block;
-	background: red;
-	border-radius: 5px;
-	font-size: 14px;
-	padding: 5px;
-	color: black;
-	margin: 0;
-	animation: chan-sh 6s ease infinite;
-
-}
-
-
-
-.hint-star {
-	display: inline-block;
-	margin-left: 0.5em;
-	color: gold;
-	width: 50%;
-}
-
-
-
-
-.castañuela-image {
-	transition: all 0.3s ease-out;
-	display: inline-block;
-	position: relative;
-	overflow: hidden;
-	height: 100%;
-	float: right;
-	width: 45%;
-	display: inline-block;
-}
-
-#castañuela img {width: 100%;height: 100%;}
-
-
-#Voz{
-	box-shadow: 0 15px 30px 1px grey;
-	background: red;
-	text-align: center;
-	border-radius: 5px;
-	overflow: hidden;
-	margin: 5em auto;
-	height: 350px;
-	width: 700px;
-  
-	
-}
-
-
-
-.Info-Voz {
-	position: relative;
-	text-align: left;
-	overflow: hidden;
-	padding: 30px;
-	height: 100%;
-	float: left;
-	width: 40%;
-
-}
-
-#Voz .Info-Voz h1{
-	font-family: 'Bebas Neue', cursive;
-	display: inline-block;
-	position: relative;
-	font-size: 30px;
-	color: black;
-	margin: 0;
-	
-}
-
-#Voz .Info-Voz h1:before{
-	position: absolute;
-	content: '';
-	right: 0%; 
-	top: 0%;
-	transform: translate(25px, -15px);
-	font-family: 'Bree Serif', serif;
-	display: inline-block;
-	background: red;
-	border-radius: 5px;
-	font-size: 14px;
-	padding: 5px;
-	color: black;
-	margin: 0;
-	animation: chan-sh 6s ease infinite;
-
-}
-
-
-
-.hint-star {
-	display: inline-block;
-	margin-left: 0.5em;
-	color: gold;
-	width: 50%;
-}
-
-
-
-
-.Voz-image {
-	transition: all 0.3s ease-out;
-	display: inline-block;
-	position: relative;
-	overflow: hidden;
-	height: 100%;
-	float: right;
-	width: 45%;
-	display: inline-block;
-}
-
-#Voz img {width: 100%;height: 100%;}
-
